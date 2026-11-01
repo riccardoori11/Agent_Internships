@@ -1,0 +1,2 @@
+# Runtime uses the Python 3.11+ standard library only.
+# System IANA timezone data (Europe/Paris) is required.

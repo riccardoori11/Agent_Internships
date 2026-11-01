@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh the Paris C++ internship report
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=@PROJECT@
+ExecStart=@RUNNER@
+Environment=PYTHONUNBUFFERED=1
+SuccessExitStatus=2 3
+TimeoutStartSec=2h

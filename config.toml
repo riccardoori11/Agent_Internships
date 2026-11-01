@@ -1,0 +1,93 @@
+[search]
+scope = "paris" # Change to "ile-de-france" to include the surrounding region.
+# Region/postal codes are recognized automatically. Add unqualified commune names
+# used by your sources here; a bare 'Remote' never establishes a Paris office.
+idf_locations = ["Puteaux", "Courbevoie", "La Défense", "Nanterre", "Neuilly-sur-Seine", "Levallois-Perret", "Boulogne-Billancourt", "Issy-les-Moulineaux", "Montrouge", "Massy", "Palaiseau", "Saclay", "Gif-sur-Yvette", "Vélizy-Villacoublay", "Versailles", "Saint-Denis", "Saint-Ouen", "Montreuil", "Ivry-sur-Seine", "Le Plessis-Robinson", "Chatillon", "Clamart", "Meudon", "Suresnes", "Rueil-Malmaison"]
+limitations = [
+  "Employer coverage is a maintained seed list, not all employers. Add boards or career-search URLs below to expand discovery.",
+  "Public job boards may block automated access, require JavaScript, or omit structured job data; these are reported as incomplete rather than zero matches.",
+  "French and English queries are run on search adapters; employer feeds are inspected in full. Paris city scope requires an explicit Paris location, including hybrid roles attached to that office.",
+  "C++ mentioned only as optional knowledge is excluded; ambiguous contracts or missing locations may cause relevant roles to be missed.",
+  "Availability is checked when collected and may change later. A visible active employer application route is required for confirmation; no application is submitted."
+]
+
+[schedule]
+timezone = "Europe/Paris"
+time = "08:00"
+
+[network]
+timeout = 20
+retries = 3
+verification_workers = 4
+
+[output]
+report = "internship.md"
+logs = "logs"
+
+[[sources]]
+name = "Murex employer Workday"
+kind = "workday"
+company = "Murex"
+host = "https://murex.wd3.myworkdayjobs.com"
+tenant = "murex"
+board = "MurexCareerPage1"
+queries = ["stage", "internship", "intern", "C++"]
+
+[[sources]]
+name = "Qube employer Greenhouse"
+kind = "greenhouse"
+company = "Qube Research & Technologies"
+board = "quberesearchandtechnologies"
+
+[[sources]]
+name = "Datadog employer Greenhouse"
+kind = "greenhouse"
+company = "Datadog"
+board = "datadog"
+
+[[sources]]
+name = "Alice & Bob employer Lever"
+kind = "lever"
+company = "Alice & Bob"
+board = "alice-bob"
+
+[[sources]]
+name = "Winamax employer Lever"
+kind = "lever"
+company = "Winamax"
+board = "winamax"
+
+[[sources]]
+name = "Meritis employer SmartRecruiters"
+kind = "smartrecruiters"
+company = "Meritis"
+board = "Meritis"
+country = "fr"
+
+[[sources]]
+name = "Ubisoft employer SmartRecruiters"
+kind = "smartrecruiters"
+company = "Ubisoft"
+board = "Ubisoft2"
+country = "fr"
+
+[[sources]]
+name = "Optioncarriere public search"
+kind = "html_search"
+url = "https://www.optioncarriere.com/recherche/emplois?s={query}&l={location}"
+job_link_pattern = "/jobad/"
+queries = ["stage C++", "C++ internship", "stagiaire C++", "C++ intern"]
+
+[[sources]]
+name = "Hellowork public search"
+kind = "html_search"
+url = "https://www.hellowork.com/fr-fr/emploi/recherche.html?k={query}&l={location}"
+job_link_pattern = "/fr-fr/emplois/[0-9]+"
+queries = ["stage C++", "C++ internship", "stagiaire C++", "C++ intern"]
+
+[[sources]]
+name = "Welcome to the Jungle public search"
+kind = "html_search"
+url = "https://www.welcometothejungle.com/fr/jobs?query={query}&aroundQuery={location}"
+job_link_pattern = "/companies/[^/]+/jobs/"
+queries = ["stage C++", "C++ internship", "stagiaire C++", "C++ intern"]

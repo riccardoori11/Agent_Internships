@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "mode": "web-assisted-initial-search",
+  "collected_at": "2026-11-01T01:52:55+00:00",
+  "limitations": [
+    "The agent shell cannot resolve external DNS, so this one-time initial search used the web research tool. Scheduled runs use live public HTTP adapters, never this snapshot.",
+    "All source searches are incomplete: indexed discovery is not exhaustive and not every pagination page was accessible. Missing or unconfirmed availability is recorded as Unverified.",
+    "Descriptions are short paraphrases of retrieved material. Unknown dates and work arrangements were left blank or explicitly attributed. Original employer URLs are preferred."
+  ],
+  "queries": [
+    "Paris stage C++ internship software engineer careers 2026",
+    "Paris C++ stage Postuler 2026 2027",
+    "Paris C++ internship Apply 2027",
+    "site:jobs.lever.co Paris C++ intern",
+    "site:jobs.ashbyhq.com Paris C++ internship",
+    "site:jobs.smartrecruiters.com Paris C++ stage",
+    "site:boards.greenhouse.io Paris C++ intern",
+    "IT Quant Equity Pricing 2026 stage"
+  ],
+  "sources": [
+    {
+      "name": "Murex employer Workday + Welcome to the Jungle",
+      "url": "https://murex.wd3.myworkdayjobs.com/en-US/MurexCareerPage1/job/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1",
+      "pages": 2,
+      "complete": false,
+      "error": "Employer page is a JavaScript shell; employer application acceptance cannot be confirmed. Search covered visible indexed results, not all pagination.",
+      "jobs": [
+        {
+          "verified_at": "2026-11-01T01:52:55+00:00",
+          "status": "unverified",
+          "metadata": {
+            "web_assisted": true,
+            "employer_source": true,
+            "evidence_urls": [
+              "https://murex.wd3.myworkdayjobs.com/en-US/MurexCareerPage1/job/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1",
+              "https://www.welcometothejungle.com/en/companies/murex/jobs/internship-2027-software-engineer-c"
+            ]
+          },
+          "company": "Murex",
+          "title": "INTERNSHIP 2027 – Software Engineer C++",
+          "location": "Paris, France",
+          "work_arrangement": "On-site (Welcome to the Jungle states no remote work)",
+          "description": "Internship contributing to Murex's financial platform. Duties include developing and testing software components in C++, with work on observability, static analysis and compiler tooling.",
+          "url": "https://murex.wd3.myworkdayjobs.com/en-US/MurexCareerPage1/job/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1",
+          "apply_url": "https://murex.wd3.myworkdayjobs.com/en-US/MurexCareerPage1/job/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1",
+          "contract_type": "Internship",
+          "duration": "6 months",
+          "start_date": "",
+          "posted_at": "",
+          "source": "Murex Workday; Welcome to the Jungle",
+          "verification_evidence": "The employer URL and its application destination loaded without readable application content; the recruiting-board listing has an Apply link. Employer application form could not be confirmed."
+        }
+      ]
+    },
+    {
+      "name": "Qube employer Greenhouse + 9am.careers",
+      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002",
+      "pages": 2,
+      "complete": false,
+      "error": "Availability checked on the original employer form; description from 9am.careers mirror. Search covered visible indexed results, not all pagination.",
+      "jobs": [
+        {
+          "verified_at": "2026-11-01T01:52:55+00:00",
+          "status": "open",
+          "metadata": {
+            "web_assisted": true,
+            "employer_source": true,
+            "evidence_urls": [
+              "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002",
+              "https://9am.careers/jobs/qube-research-technologies/2027-internship-software-engineering-and-quantitative-development-69/"
+            ]
+          },
+          "company": "Qube Research & Technologies",
+          "title": "2027 - Internship, Software Engineering and Quantitative Development",
+          "location": "London, Paris, Wrocław, Zurich, Dubai (Paris eligible for Quantitative Developer track)",
+          "work_arrangement": "Not stated by employer (9am.careers mirror says office work)",
+          "description": "Internship in quantitative development or software engineering. The Paris-eligible quantitative developer track includes building high-performance C++ systems for real-time trading and low-latency execution. Description supplied by 9am.careers; original employer application form is available.",
+          "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002",
+          "apply_url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002",
+          "contract_type": "Internship",
+          "duration": "3–6 months (9am.careers mirror); employer form restricts the 12-month placement to Software Engineering, which excludes Paris",
+          "start_date": "2027 (9am.careers mirror)",
+          "posted_at": "",
+          "source": "Qube Greenhouse; 9am.careers",
+          "verification_evidence": "The original employer Greenhouse job-specific page exposes an application form with required name, email, CV and internship questions. No application was submitted."
+        }
+      ]
+    },
+    {
+      "name": "Meritis employer SmartRecruiters",
+      "url": "https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-",
+      "pages": 1,
+      "complete": false,
+      "error": "Original listing read; job-specific candidate form not exposed in browser extraction. Search covered visible indexed results, not all pagination.",
+      "jobs": [
+        {
+          "verified_at": "2026-11-01T01:52:55+00:00",
+          "status": "unverified",
+          "metadata": {
+            "web_assisted": true,
+            "employer_source": true,
+            "evidence_urls": [
+              "https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-"
+            ]
+          },
+          "company": "Meritis",
+          "title": "Développeur C++ (H/F)",
+          "location": "Av. Pierre 1er de Serbie, Paris, France",
+          "work_arrangement": "",
+          "description": "Stage developing and maintaining low-latency front-office equity-derivative contribution systems. The internship's primary required programming skill is strong C++; Java and Python are secondary.",
+          "url": "https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-",
+          "apply_url": "https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-",
+          "contract_type": "Stage",
+          "duration": "",
+          "start_date": "",
+          "posted_at": "",
+          "source": "Meritis SmartRecruiters",
+          "verification_evidence": "The original employer listing is readable and shows interested-candidate buttons, but a job-specific application form could not be checked."
+        }
+      ]
+    },
+    {
+      "name": "Natixis Welcome to the Jungle + JobTeaser + employer application destination",
+      "url": "https://www.welcometothejungle.com/fr/companies/natixis/jobs/stage-6-mois-it-quant-equity-pricing-f-h_paris",
+      "pages": 3,
+      "complete": false,
+      "error": "Employer Apl iTrak destination returned no readable form. Search covered visible indexed results, not all pagination.",
+      "jobs": [
+        {
+          "verified_at": "2026-11-01T01:52:55+00:00",
+          "status": "unverified",
+          "metadata": {
+            "web_assisted": true,
+            "evidence_urls": [
+              "https://www.welcometothejungle.com/fr/companies/natixis/jobs/stage-6-mois-it-quant-equity-pricing-f-h_paris",
+              "https://www.jobteaser.com/fr/job-offers/15615c20-aa23-4170-82bd-46d1d49878fa-natixis-stage-6-mois-it-quant-equity-pricing-f-h"
+            ]
+          },
+          "company": "Natixis",
+          "title": "Stage - 6 mois - IT Quant Equity Pricing F/H",
+          "location": "Paris, France (75013)",
+          "work_arrangement": "On-site (Welcome to the Jungle states remote work not authorized)",
+          "description": "Stage in Pricing & Analytics using C++ and AI to improve and automate XML flow generation for equity pricing, with market-data analysis and pricing-query optimization.",
+          "url": "https://www.welcometothejungle.com/fr/companies/natixis/jobs/stage-6-mois-it-quant-equity-pricing-f-h_paris",
+          "apply_url": "https://www.aplitrak.com/?adid=ZnJhLjg2MDY1LjkzODBAbmF0aXhpcy5hcGxpdHJhay5jb20",
+          "contract_type": "Stage",
+          "duration": "6 months",
+          "start_date": "November 2026 (description; JobTeaser summary says as soon as possible)",
+          "posted_at": "2026-10-02 (JobTeaser)",
+          "source": "Welcome to the Jungle; JobTeaser",
+          "verification_evidence": "The public board listing has a Postuler link, followed to the employer Apl iTrak destination; no readable candidate form was exposed."
+        }
+      ]
+    },
+    {
+      "name": "Lever employer search (Alice & Bob, Equativ, Palantir)",
+      "url": "https://jobs.lever.co",
+      "pages": 5,
+      "complete": false,
+      "error": "Visible indexed results only. Reviewed candidates mention C++ only as an optional language, or work primarily in other languages; excluded for lack of meaningful C++ duties.",
+      "jobs": []
+    },
+    {
+      "name": "SII employer page",
+      "url": "https://sii-group.com/en-FR/node/22991",
+      "pages": 1,
+      "complete": false,
+      "error": "HTTP 403 on original listing; indexed region Île-de-France is insufficient to establish a Paris city office. Excluded until location can be confirmed.",
+      "jobs": []
+    }
+  ]
+}

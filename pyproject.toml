@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paris-cpp-internships"
+version = "1.0.0"
+description = "Public-source C++ internship search with audited availability and a Paris daily schedule"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+internship-finder = "internship_finder.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["internship_finder*"]

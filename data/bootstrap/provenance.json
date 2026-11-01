@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-01T01:52:55+00:00",
+  "method": "web.run search/open/click; source responses may be search-index cached. No shell HTTP success claimed.",
+  "excerpts": [
+    {
+      "url": "https://www.welcometothejungle.com/en/companies/murex/jobs/internship-2027-software-engineer-c",
+      "quote": "Design, develop and test software components in C++;",
+      "observation": "Lists Paris, no remote work, 6 months; links Apply to original Workday.",
+      "original_checked": "https://murex.wd3.myworkdayjobs.com/en-US/MurexCareerPage1/job/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1",
+      "result": "Original returns HTML without readable application form."
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002",
+      "quote": "Apply for this job",
+      "observation": "Original employer form contains First Name, Last Name, Email, CV upload and internship-specific questions. Availability confirmed in the tool's retrieved page."
+    },
+    {
+      "url": "https://9am.careers/jobs/qube-research-technologies/2027-internship-software-engineering-and-quantitative-development-69/",
+      "quote": "Build high-performance C++ systems for real-time trading",
+      "observation": "Quantitative Developer track explicitly includes Paris. Duration 3–6 or 12 months; starts 2027. Mirror description, original application page checked separately."
+    },
+    {
+      "url": "https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-",
+      "quote": "Solide maîtrise du langage C++ et bonnes notions de Java et Python",
+      "observation": "Original employer page labels Stage and interested-candidate buttons. Search extraction states Paris. Form availability not confirmed."
+    },
+    {
+      "url": "https://www.welcometothejungle.com/fr/companies/natixis/jobs/stage-6-mois-it-quant-equity-pricing-f-h_paris",
+      "quote": "la puissance du C++",
+      "observation": "Stage 6 months starting November 2026, Paris; on-site. Postuler external employer destination followed; empty readable response."
+    },
+    {
+      "url": "https://www.jobteaser.com/fr/job-offers/15615c20-aa23-4170-82bd-46d1d49878fa-natixis-stage-6-mois-it-quant-equity-pricing-f-h",
+      "quote": "Publiée le 2 octobre 2026",
+      "observation": "Same Natixis role; posting date from JobTeaser."
+    }
+  ],
+  "rejected": [
+    {
+      "url": "https://jobs.lever.co/alice-bob/849e313f-10df-4f77-9246-26ad78177495",
+      "reason": "Python primary; C++ or Rust experience only a plus."
+    },
+    {
+      "url": "https://jobs.lever.co/equativ/bc00695c-eb9a-4f50-bb4d-f186892fbb3d",
+      "reason": ".NET/C# work, C++ appears in alternative language skills only."
+    },
+    {
+      "url": "https://jobs.lever.co/palantir/1b6f1d82-d459-4dea-8bc2-8d2ffe6f881a",
+      "reason": "List of alternative coding languages without explicit C++ duties."
+    },
+    {
+      "url": "https://jobs.smartrecruiters.com/ubisoft2/744000153698306",
+      "reason": "Mentorship programme explicitly not employment; application period ended October 31."
+    }
+  ]
+}

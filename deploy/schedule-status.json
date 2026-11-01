@@ -1,0 +1,13 @@
+{
+  "active": false,
+  "error": "systemctl --user is-active internship-finder.timer: inactive",
+  "generated_units": "/home/riccardo/agent/deploy/generated",
+  "remaining_steps": [
+    "Run on the normal Linux host outside the agent sandbox: loginctl enable-linger \"$(id -un)\"",
+    "cd /home/riccardo/agent && ./scripts/install-schedule.sh",
+    "./scripts/verify-schedule.sh"
+  ],
+  "checked_at": "2026-11-01T02:12:41.813181+00:00",
+  "timezone": "Europe/Paris",
+  "calendar": "*-*-* 08:00:00 Europe/Paris"
+}

@@ -1,0 +1,84 @@
+name: Refresh internships
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+      timezone: Europe/Paris
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: daily-internship-report
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 130
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the current report and collector
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Test the collector
+        run: python3 -m unittest discover -s tests -q
+
+      - name: Collect live internships
+        id: collect
+        shell: bash
+        run: |
+          # Capture failures so the stale banner can be saved before failing the job.
+          set +e
+          python3 -m internship_finder --config config.toml
+          collection_status=$?
+          set -e
+          printf 'exit_code=%s\n' "$collection_status" >> "$GITHUB_OUTPUT"
+
+      - name: Retain report and diagnostics
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: internship-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            internship.md
+            data/last-run.json
+            logs/*.log*
+          retention-days: 7
+          if-no-files-found: warn
+
+      - name: Save the report to the default branch
+        if: ${{ !cancelled() && steps.collect.outputs.exit_code != '' && steps.collect.outputs.exit_code != '3' }}
+        env:
+          REPORT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: python3 scripts/publish_report.py --branch "$REPORT_BRANCH"
+
+      - name: Report collection status
+        if: ${{ always() && steps.collect.outputs.exit_code != '' }}
+        env:
+          COLLECTION_STATUS: ${{ steps.collect.outputs.exit_code }}
+        shell: bash
+        run: |
+          case "$COLLECTION_STATUS" in
+            0) message='Collection completed for configured sources.' ;;
+            2) message='Incomplete search: inspect the failed sources and Unverified section.'
+               printf '::warning::%s\n' "$message" ;;
+            3) message='Collection skipped because another process held the report lock.' ;;
+            *) message='Collection failed: inspect diagnostics and the stale report.'
+               printf '::error::%s\n' "$message" ;;
+          esac
+          printf '%s\n' "$message" >> "$GITHUB_STEP_SUMMARY"
+          case "$COLLECTION_STATUS" in
+            0|2|3) exit 0 ;;
+            *) exit 1 ;;
+          esac
