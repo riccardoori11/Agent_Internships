@@ -1,109 +1,73 @@
 {
-  "attempted_at": "2026-11-01T01:58:30.509223+00:00",
-  "finished_at": "2026-11-01T01:58:52.709824+00:00",
+  "attempted_at": "2026-11-01T19:42:51.708964+00:00",
+  "finished_at": "2026-11-01T19:43:48.281096+00:00",
   "status": "incomplete",
-  "report": "/home/riccardo/agent/internship.md",
-  "collected": 4,
-  "excluded": 0,
-  "matches": 4,
-  "open": 1,
+  "report": "/home/runner/work/Agent_Internships/Agent_Internships/internship.md",
+  "collected": 791,
+  "excluded": 785,
+  "matches": 6,
+  "open": 3,
   "unverified": 3,
   "sources": [
     {
       "name": "Murex employer Workday",
-      "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://murex.wd3.myworkdayjobs.com/wday/cxs/murex/MurexCareerPage1/jobs: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "complete": true,
+      "pages": 7,
+      "error": ""
     },
     {
       "name": "Qube employer Greenhouse",
-      "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://boards-api.greenhouse.io/v1/boards/quberesearchandtechnologies/jobs?content=true: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "complete": true,
+      "pages": 1,
+      "error": ""
     },
     {
       "name": "Datadog employer Greenhouse",
-      "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "complete": true,
+      "pages": 1,
+      "error": ""
     },
     {
       "name": "Alice & Bob employer Lever",
-      "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://api.lever.co/v0/postings/alice-bob?mode=json&limit=100&skip=0: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "complete": true,
+      "pages": 2,
+      "error": ""
     },
     {
       "name": "Winamax employer Lever",
-      "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://api.lever.co/v0/postings/winamax?mode=json&limit=100&skip=0: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "complete": true,
+      "pages": 2,
+      "error": ""
     },
     {
       "name": "Meritis employer SmartRecruiters",
-      "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://api.smartrecruiters.com/v1/companies/Meritis/postings?limit=100&offset=0&country=fr: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "complete": true,
+      "pages": 2,
+      "error": ""
     },
     {
       "name": "Ubisoft employer SmartRecruiters",
-      "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&offset=0&country=fr: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "complete": true,
+      "pages": 2,
+      "error": ""
     },
     {
       "name": "Optioncarriere public search",
       "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://www.optioncarriere.com/recherche/emplois?s=stage%20C%2B%2B&l=Paris%2C%20France: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "pages": 1,
+      "error": "SourceError: No jobs or explicit empty-state found; unsupported, blocked or JavaScript search"
     },
     {
       "name": "Hellowork public search",
       "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://www.hellowork.com/fr-fr/emploi/recherche.html?k=stage%20C%2B%2B&l=Paris%2C%20France: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "pages": 1,
+      "error": "SourceError: JavaScript pagination control advertises more results without a usable next link"
     },
     {
       "name": "Welcome to the Jungle public search",
       "complete": false,
-      "pages": 0,
-      "error": "SourceError: Network failure: https://www.welcometothejungle.com/fr/jobs?query=stage%20C%2B%2B&aroundQuery=Paris%2C%20France: <urlopen error [Errno -3] Temporary failure in name resolution>"
-    },
-    {
-      "name": "Murex employer Workday + Welcome to the Jungle",
-      "complete": false,
-      "pages": 2,
-      "error": "Employer page is a JavaScript shell; employer application acceptance cannot be confirmed. Search covered visible indexed results, not all pagination."
-    },
-    {
-      "name": "Qube employer Greenhouse + 9am.careers",
-      "complete": false,
-      "pages": 2,
-      "error": "Availability checked on the original employer form; description from 9am.careers mirror. Search covered visible indexed results, not all pagination."
-    },
-    {
-      "name": "Meritis employer SmartRecruiters",
-      "complete": false,
       "pages": 1,
-      "error": "Original listing read; job-specific candidate form not exposed in browser extraction. Search covered visible indexed results, not all pagination."
-    },
-    {
-      "name": "Natixis Welcome to the Jungle + JobTeaser + employer application destination",
-      "complete": false,
-      "pages": 3,
-      "error": "Employer Apl iTrak destination returned no readable form. Search covered visible indexed results, not all pagination."
-    },
-    {
-      "name": "Lever employer search (Alice & Bob, Equativ, Palantir)",
-      "complete": false,
-      "pages": 5,
-      "error": "Visible indexed results only. Reviewed candidates mention C++ only as an optional language, or work primarily in other languages; excluded for lack of meaningful C++ duties."
-    },
-    {
-      "name": "SII employer page",
-      "complete": false,
-      "pages": 1,
-      "error": "HTTP 403 on original listing; indexed region \u00cele-de-France is insufficient to establish a Paris city office. Excluded until location can be confirmed."
+      "error": "SourceError: No jobs or explicit empty-state found; unsupported, blocked or JavaScript search"
     }
   ]
 }
