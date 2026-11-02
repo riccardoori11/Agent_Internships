@@ -1,6 +1,6 @@
 # C++ internships — Paris
 
-Last update: **2026-11-01T20:43:48+01:00 (Europe/Paris)**
+Last update: **2026-11-02T17:57:21+01:00 (Europe/Paris)**
 Search status: **INCOMPLETE — partial results**
 Location scope: **paris**
 
@@ -16,7 +16,7 @@ Confirmed accepting applications: **3** · Unverified: **3**
 - **Posting date:** 2026-09-08T09:57:57-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002>)
-- **Last verification attempt:** 2026-11-01T19:42:51.708964+00:00
+- **Last verification attempt:** 2026-11-02T16:53:09.061764+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -28,7 +28,7 @@ Confirmed accepting applications: **3** · Unverified: **3**
 - **Posting date:** 2026-09-08T10:10:35-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002>)
-- **Last verification attempt:** 2026-11-01T19:42:51.708964+00:00
+- **Last verification attempt:** 2026-11-02T16:53:09.061764+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -40,7 +40,7 @@ Confirmed accepting applications: **3** · Unverified: **3**
 - **Posting date:** 2026-09-08T09:56:30-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002>)
-- **Last verification attempt:** 2026-11-01T19:42:51.708964+00:00
+- **Last verification attempt:** 2026-11-02T16:53:09.061764+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -56,7 +56,7 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-18T08:01:34.287Z
 - **Application:** [Apply](<https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-?oga=true>)
 - **Listing:** [Source](<https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f->)
-- **Last verification attempt:** 2026-11-01T19:42:51.708964+00:00
+- **Last verification attempt:** 2026-11-02T16:53:09.061764+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Meritis employer SmartRecruiters
 
@@ -68,7 +68,7 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-18T08:03:56.400Z
 - **Application:** [Apply](<https://jobs.smartrecruiters.com/Meritis/744000150298227-it-quant-h-f-?oga=true>)
 - **Listing:** [Source](<https://jobs.smartrecruiters.com/Meritis/744000150298227-it-quant-h-f->)
-- **Last verification attempt:** 2026-11-01T19:42:51.708964+00:00
+- **Last verification attempt:** 2026-11-02T16:53:09.061764+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Meritis employer SmartRecruiters
 
@@ -80,7 +80,7 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-22
 - **Application:** [Apply](<https://murex.wd3.myworkdayjobs.com/MurexCareerPage1/job/Paris/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1>)
 - **Listing:** [Source](<https://murex.wd3.myworkdayjobs.com/MurexCareerPage1/job/Paris/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1>)
-- **Last verification attempt:** 2026-11-01T19:42:51.708964+00:00
+- **Last verification attempt:** 2026-11-02T16:53:09.061764+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Murex employer Workday
 
@@ -89,13 +89,13 @@ These match the role/location filters, but accepting applications could not be c
 | Source | Pages recorded | Listings collected | Result |
 |---|---:|---:|---|
 | Murex employer Workday | 7 | 66 | Completed |
-| Qube employer Greenhouse | 1 | 198 | Completed |
-| Datadog employer Greenhouse | 1 | 397 | Completed |
-| Alice & Bob employer Lever | 2 | 46 | Completed |
-| Winamax employer Lever | 2 | 26 | Completed |
+| Qube employer Greenhouse | 1 | 199 | Completed |
+| Datadog employer Greenhouse | 1 | 402 | Completed |
+| Alice & Bob employer Lever | 2 | 47 | Completed |
+| Winamax employer Lever | 2 | 24 | Completed |
 | Meritis employer SmartRecruiters | 2 | 10 | Completed |
-| Ubisoft employer SmartRecruiters | 2 | 47 | Completed |
-| Optioncarriere public search | 1 | 0 | INCOMPLETE: SourceError: No jobs or explicit empty-state found; unsupported, blocked or JavaScript search |
+| Ubisoft employer SmartRecruiters | 2 | 44 | Completed |
+| Optioncarriere public search | 0 | 0 | INCOMPLETE: SourceError: Network failure: https://www.optioncarriere.com/recherche/emplois?s=stage%20C%2B%2B&l=Paris%2C%20France: &lt;urlopen error timed out&gt; |
 | Hellowork public search | 1 | 1 | INCOMPLETE: SourceError: JavaScript pagination control advertises more results without a usable next link |
 | Welcome to the Jungle public search | 1 | 0 | INCOMPLETE: SourceError: No jobs or explicit empty-state found; unsupported, blocked or JavaScript search |
 
