@@ -1,10 +1,10 @@
 # C++ internships — Paris
 
-Last update: **2026-11-03T15:54:39+01:00 (Europe/Paris)**
+Last update: **2026-11-04T16:13:42+01:00 (Europe/Paris)**
 Search status: **INCOMPLETE — partial results**
 Location scope: **paris**
 
-Confirmed accepting applications: **3** · Unverified: **3**
+Confirmed accepting applications: **3** · Unverified: **2**
 
 ## Open internships
 
@@ -16,7 +16,7 @@ Confirmed accepting applications: **3** · Unverified: **3**
 - **Posting date:** 2026-09-08T09:57:57-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002>)
-- **Last verification attempt:** 2026-11-03T14:53:18.217312+00:00
+- **Last verification attempt:** 2026-11-04T15:12:40.383386+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -28,7 +28,7 @@ Confirmed accepting applications: **3** · Unverified: **3**
 - **Posting date:** 2026-09-08T10:10:35-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002>)
-- **Last verification attempt:** 2026-11-03T14:53:18.217312+00:00
+- **Last verification attempt:** 2026-11-04T15:12:40.383386+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -40,7 +40,7 @@ Confirmed accepting applications: **3** · Unverified: **3**
 - **Posting date:** 2026-09-08T09:56:30-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002>)
-- **Last verification attempt:** 2026-11-03T14:53:18.217312+00:00
+- **Last verification attempt:** 2026-11-04T15:12:40.383386+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -56,7 +56,7 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-18T08:01:34.287Z
 - **Application:** [Apply](<https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-?oga=true>)
 - **Listing:** [Source](<https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f->)
-- **Last verification attempt:** 2026-11-03T14:53:18.217312+00:00
+- **Last verification attempt:** 2026-11-04T15:12:40.383386+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Meritis employer SmartRecruiters
 
@@ -68,30 +68,18 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-18T08:03:56.400Z
 - **Application:** [Apply](<https://jobs.smartrecruiters.com/Meritis/744000150298227-it-quant-h-f-?oga=true>)
 - **Listing:** [Source](<https://jobs.smartrecruiters.com/Meritis/744000150298227-it-quant-h-f->)
-- **Last verification attempt:** 2026-11-03T14:53:18.217312+00:00
+- **Last verification attempt:** 2026-11-04T15:12:40.383386+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Meritis employer SmartRecruiters
-
-### Murex — INTERNSHIP 2027 – Software Engineer C++
-
-- **Location / work arrangement:** Paris / Not provided
-- **C++ evidence:** Our C++ engineers work on technical components at the core of the platform.
-- **Start / duration:** Not provided / 6 months
-- **Posting date:** 2026-09-22
-- **Application:** [Apply](<https://murex.wd3.myworkdayjobs.com/MurexCareerPage1/job/Paris/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1>)
-- **Listing:** [Source](<https://murex.wd3.myworkdayjobs.com/MurexCareerPage1/job/Paris/INTERNSHIP-2027---Software-Engineer-C--_JR103161-1>)
-- **Last verification attempt:** 2026-11-03T14:53:18.217312+00:00
-- **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
-- **Discovered on:** Murex employer Workday
 
 ## Sources searched
 
 | Source | Pages recorded | Listings collected | Result |
 |---|---:|---:|---|
-| Murex employer Workday | 7 | 66 | Completed |
-| Qube employer Greenhouse | 1 | 201 | Completed |
-| Datadog employer Greenhouse | 1 | 401 | Completed |
-| Alice & Bob employer Lever | 2 | 48 | Completed |
+| Murex employer Workday | 7 | 64 | Completed |
+| Qube employer Greenhouse | 1 | 204 | Completed |
+| Datadog employer Greenhouse | 1 | 394 | Completed |
+| Alice & Bob employer Lever | 2 | 49 | Completed |
 | Winamax employer Lever | 2 | 23 | Completed |
 | Meritis employer SmartRecruiters | 2 | 10 | Completed |
 | Ubisoft employer SmartRecruiters | 2 | 44 | Completed |
