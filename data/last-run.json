@@ -1,10 +1,10 @@
 {
-  "attempted_at": "2026-11-05T15:13:52.754181+00:00",
-  "finished_at": "2026-11-05T15:14:56.044408+00:00",
+  "attempted_at": "2026-11-06T14:49:29.072439+00:00",
+  "finished_at": "2026-11-06T14:50:14.435150+00:00",
   "status": "incomplete",
   "report": "/home/runner/work/Agent_Internships/Agent_Internships/internship.md",
-  "collected": 792,
-  "excluded": 787,
+  "collected": 794,
+  "excluded": 789,
   "matches": 5,
   "open": 3,
   "unverified": 2,
@@ -12,7 +12,7 @@
     {
       "name": "Murex employer Workday",
       "complete": true,
-      "pages": 7,
+      "pages": 6,
       "error": ""
     },
     {
