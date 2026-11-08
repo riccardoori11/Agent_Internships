@@ -1,6 +1,6 @@
 {
-  "attempted_at": "2026-11-07T13:46:49.592505+00:00",
-  "finished_at": "2026-11-07T13:47:29.322285+00:00",
+  "attempted_at": "2026-11-08T14:07:29.642681+00:00",
+  "finished_at": "2026-11-08T14:11:42.272738+00:00",
   "status": "incomplete",
   "report": "/home/runner/work/Agent_Internships/Agent_Internships/internship.md",
   "collected": 797,
@@ -54,8 +54,8 @@
     {
       "name": "Optioncarriere public search",
       "complete": false,
-      "pages": 1,
-      "error": "SourceError: No jobs or explicit empty-state found; unsupported, blocked or JavaScript search"
+      "pages": 0,
+      "error": "SourceError: Network failure: https://www.optioncarriere.com/recherche/emplois?s=stage%20C%2B%2B&l=Paris%2C%20France: <urlopen error timed out>"
     },
     {
       "name": "Hellowork public search",
