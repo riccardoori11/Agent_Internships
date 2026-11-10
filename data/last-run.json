@@ -1,10 +1,10 @@
 {
-  "attempted_at": "2026-11-09T17:15:07.361168+00:00",
-  "finished_at": "2026-11-09T17:15:50.921671+00:00",
+  "attempted_at": "2026-11-10T15:26:54.118900+00:00",
+  "finished_at": "2026-11-10T15:27:41.324070+00:00",
   "status": "incomplete",
   "report": "/home/runner/work/Agent_Internships/Agent_Internships/internship.md",
-  "collected": 790,
-  "excluded": 785,
+  "collected": 782,
+  "excluded": 777,
   "matches": 5,
   "open": 3,
   "unverified": 2,
@@ -12,7 +12,7 @@
     {
       "name": "Murex employer Workday",
       "complete": true,
-      "pages": 6,
+      "pages": 7,
       "error": ""
     },
     {
@@ -48,7 +48,7 @@
     {
       "name": "Ubisoft employer SmartRecruiters",
       "complete": true,
-      "pages": 2,
+      "pages": 1,
       "error": ""
     },
     {
