@@ -1,6 +1,6 @@
 # C++ internships — Paris
 
-Last update: **2026-11-10T16:27:41+01:00 (Europe/Paris)**
+Last update: **2026-11-11T15:58:22+01:00 (Europe/Paris)**
 Search status: **INCOMPLETE — partial results**
 Location scope: **paris**
 
@@ -16,7 +16,7 @@ Confirmed accepting applications: **3** · Unverified: **2**
 - **Posting date:** 2026-09-08T09:57:57-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002>)
-- **Last verification attempt:** 2026-11-10T15:26:54.118900+00:00
+- **Last verification attempt:** 2026-11-11T14:57:29.240087+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -28,7 +28,7 @@ Confirmed accepting applications: **3** · Unverified: **2**
 - **Posting date:** 2026-09-08T10:10:35-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002>)
-- **Last verification attempt:** 2026-11-10T15:26:54.118900+00:00
+- **Last verification attempt:** 2026-11-11T14:57:29.240087+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -40,7 +40,7 @@ Confirmed accepting applications: **3** · Unverified: **2**
 - **Posting date:** 2026-09-08T09:56:30-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002>)
-- **Last verification attempt:** 2026-11-10T15:26:54.118900+00:00
+- **Last verification attempt:** 2026-11-11T14:57:29.240087+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -56,7 +56,7 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-18T08:01:34.287Z
 - **Application:** [Apply](<https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-?oga=true>)
 - **Listing:** [Source](<https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f->)
-- **Last verification attempt:** 2026-11-10T15:26:54.118900+00:00
+- **Last verification attempt:** 2026-11-11T14:57:29.240087+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Meritis employer SmartRecruiters
 
@@ -68,7 +68,7 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-18T08:03:56.400Z
 - **Application:** [Apply](<https://jobs.smartrecruiters.com/Meritis/744000150298227-it-quant-h-f-?oga=true>)
 - **Listing:** [Source](<https://jobs.smartrecruiters.com/Meritis/744000150298227-it-quant-h-f->)
-- **Last verification attempt:** 2026-11-10T15:26:54.118900+00:00
+- **Last verification attempt:** 2026-11-11T14:57:29.240087+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Meritis employer SmartRecruiters
 
@@ -76,13 +76,13 @@ These match the role/location filters, but accepting applications could not be c
 
 | Source | Pages recorded | Listings collected | Result |
 |---|---:|---:|---|
-| Murex employer Workday | 7 | 62 | Completed |
-| Qube employer Greenhouse | 1 | 206 | Completed |
-| Datadog employer Greenhouse | 1 | 396 | Completed |
+| Murex employer Workday | 7 | 63 | Completed |
+| Qube employer Greenhouse | 1 | 209 | Completed |
+| Datadog employer Greenhouse | 1 | 392 | Completed |
 | Alice & Bob employer Lever | 2 | 49 | Completed |
-| Winamax employer Lever | 2 | 21 | Completed |
-| Meritis employer SmartRecruiters | 2 | 10 | Completed |
-| Ubisoft employer SmartRecruiters | 1 | 37 | Completed |
+| Winamax employer Lever | 2 | 22 | Completed |
+| Meritis employer SmartRecruiters | 2 | 11 | Completed |
+| Ubisoft employer SmartRecruiters | 1 | 38 | Completed |
 | Optioncarriere public search | 1 | 0 | INCOMPLETE: SourceError: No jobs or explicit empty-state found; unsupported, blocked or JavaScript search |
 | Hellowork public search | 1 | 1 | INCOMPLETE: SourceError: JavaScript pagination control advertises more results without a usable next link |
 | Welcome to the Jungle public search | 1 | 0 | INCOMPLETE: SourceError: No jobs or explicit empty-state found; unsupported, blocked or JavaScript search |
