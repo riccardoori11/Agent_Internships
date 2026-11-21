@@ -1,6 +1,6 @@
 # C++ internships — Paris
 
-Last update: **2026-11-20T16:57:29+01:00 (Europe/Paris)**
+Last update: **2026-11-21T16:09:38+01:00 (Europe/Paris)**
 Search status: **INCOMPLETE — partial results**
 Location scope: **paris**
 
@@ -16,7 +16,7 @@ Confirmed accepting applications: **3** · Unverified: **2**
 - **Posting date:** 2026-09-08T09:57:57-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002>)
-- **Last verification attempt:** 2026-11-20T15:56:42.027270+00:00
+- **Last verification attempt:** 2026-11-21T15:08:40.932274+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -28,7 +28,7 @@ Confirmed accepting applications: **3** · Unverified: **2**
 - **Posting date:** 2026-09-08T10:10:35-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002>)
-- **Last verification attempt:** 2026-11-20T15:56:42.027270+00:00
+- **Last verification attempt:** 2026-11-21T15:08:40.932274+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -40,7 +40,7 @@ Confirmed accepting applications: **3** · Unverified: **2**
 - **Posting date:** 2026-09-08T09:56:30-04:00
 - **Application:** [Apply](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002>)
 - **Listing:** [Source](<https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002>)
-- **Last verification attempt:** 2026-11-20T15:56:42.027270+00:00
+- **Last verification attempt:** 2026-11-21T15:08:40.932274+00:00
 - **Availability:** open — A candidate application form is available on the employer's job-specific page.
 - **Discovered on:** Qube employer Greenhouse
 
@@ -56,7 +56,7 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-18T08:01:34.287Z
 - **Application:** [Apply](<https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f-?oga=true>)
 - **Listing:** [Source](<https://jobs.smartrecruiters.com/Meritis/744000150302003-developpeur-c-h-f->)
-- **Last verification attempt:** 2026-11-20T15:56:42.027270+00:00
+- **Last verification attempt:** 2026-11-21T15:08:40.932274+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Meritis employer SmartRecruiters
 
@@ -68,7 +68,7 @@ These match the role/location filters, but accepting applications could not be c
 - **Posting date:** 2026-09-18T08:03:56.400Z
 - **Application:** [Apply](<https://jobs.smartrecruiters.com/Meritis/744000150298227-it-quant-h-f-?oga=true>)
 - **Listing:** [Source](<https://jobs.smartrecruiters.com/Meritis/744000150298227-it-quant-h-f->)
-- **Last verification attempt:** 2026-11-20T15:56:42.027270+00:00
+- **Last verification attempt:** 2026-11-21T15:08:40.932274+00:00
 - **Availability:** unverified — The page loaded, but a job-specific employer application form could not be confirmed.
 - **Discovered on:** Meritis employer SmartRecruiters
 
@@ -78,7 +78,7 @@ These match the role/location filters, but accepting applications could not be c
 |---|---:|---:|---|
 | Murex employer Workday | 7 | 65 | Completed |
 | Qube employer Greenhouse | 1 | 205 | Completed |
-| Datadog employer Greenhouse | 1 | 383 | Completed |
+| Datadog employer Greenhouse | 1 | 382 | Completed |
 | Alice & Bob employer Lever | 2 | 49 | Completed |
 | Winamax employer Lever | 2 | 20 | Completed |
 | Meritis employer SmartRecruiters | 2 | 12 | Completed |
